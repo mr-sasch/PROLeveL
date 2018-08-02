@@ -1,0 +1,140 @@
+html {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-image: url('images/mntnc.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mntnce__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+  width: 100%;
+  max-width: 300px;
+}
+
+.form {
+  color: #fff;
+}
+
+.text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.separ {
+  width: 100%;
+  max-width: 300px;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.form__ttle {
+  opacity: .7;
+}
+
+.form__ttle-more {
+  margin-bottom: 30px;
+}
+
+.form__input-wrap {
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+}
+
+.form__inputs {
+}
+
+.form__input {
+  width: 100%;
+  background-color: #808080b3;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  padding-left: 10px;
+  outline: none;
+  color: #fff;
+  -webkit-transition: .2s ease;
+  -o-transition: .2s ease;
+  transition: .2s ease;
+}
+.form__input:focus {
+  background-color: #8e8e8e;
+}
+.form__input:focus ~ .form__label {
+  top: -40%;
+  left: 0;
+}
+.form__input:not([value=""]) ~ .form__label {
+  top: -40%;
+  left: 0;
+}
+.form__input:not([value=""]) {
+  background-color: #8e8e8e;
+}
+
+.form__input-wrap-name {
+  margin-bottom: 30px;
+}
+
+.form__input-wrap-text {
+  margin-bottom: 30px;
+}
+
+.form__label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: #e6e6e6;
+  -webkit-transition: .2s ease;
+  -o-transition: .2s ease;
+  transition: .2s ease;
+  pointer-events: none;
+}
+
+.form__button {
+  background-color: #808080b3;
+  border: 2px solid #e6e6e6;
+  border-radius: 3px;
+  color: #fff;
+  padding: 5px 20px;
+  cursor: pointer;
+  -webkit-transition: .2s ease;
+  -o-transition: .2s ease;
+  transition: .2s ease;
+}
+.form__button:hover {
+  background-color: #8e8e8e;
+}
+.form__button:focus {
+  outline: none;
+}
