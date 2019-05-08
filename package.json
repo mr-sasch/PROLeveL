@@ -9,11 +9,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^4.0.0",
+    "browser-sync": "^2.26.5",
+    "gulp": "^4.0.1",
     "gulp-pug": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-stylus": "^2.7.0",
     "gulp-watch": "^5.0.1",
     "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "gulp-rename": "^1.4.0"
   }
 }
