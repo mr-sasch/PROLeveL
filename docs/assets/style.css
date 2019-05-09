@@ -1,3 +1,73 @@
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 25px 0;
+}
+.footer__logo {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 40px;
+}
+.footer__copyright {
+  font-size: 12px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.footer__copyright_separator:before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  background: rgba(255,255,255,0.412);
+  width: 100%;
+  top: -22px;
+}
+.footer__services-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.footer__services-menu-ul {
+  padding-left: 20px;
+}
+.footer__services-menu-ul-li {
+  font-size: 16px;
+  list-style: none;
+  line-height: 1.6;
+}
+.footer__menu-ul {
+  padding-left: 0;
+}
+.footer__menu-ul-li {
+  font-size: 18px;
+  font-weight: 600;
+  list-style: none;
+  line-height: 1.9;
+}
+.footer__menu-ul-li:first-child {
+  line-height: inherit;
+}
+.footer__contacts {
+  list-style: none;
+  padding-left: 0;
+}
+.footer__contacts li {
+  margin-bottom: 2px;
+}
+.footer__contacts-phone {
+  font-size: 22px;
+  padding-left: 8px;
+}
+.footer__contacts-email {
+  font-size: 18px;
+}
+li.footer__contacts-email {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.footer__contacts-address {
+  font-size: 18px;
+  line-height: 1.2;
+}
 .header__left {
   margin-right: 210px;
   display: -webkit-flex;
@@ -158,6 +228,10 @@
   font-family: spectralRegular;
   src: url("../fonts/spectral/Spectral-Regular.ttf");
 }
+@font-face {
+  font-family: gilroyRegular;
+  src: url("../fonts/gilroy/Gilroy-Regular.ttf");
+}
 body {
   font-family: spectralRegular;
 }
@@ -166,6 +240,11 @@ body {
 }
 .d-n {
   display: none;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1300px;
+  }
 }
 .z-all_fdc {
   flex-direction: column;
