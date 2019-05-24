@@ -1,4 +1,12 @@
 extends ../templates/simple-page.pug
+include ../blocks/mixins/ttl-n-numb.pug
 
 block content
-  h1 тест
+  .container
+    .row
+      .col-12
+        .container_ttl-n-numb
+          +ttl-n-numb('01.', 'Around the world')
+        .section-title__2nd-row SEO 2.0
+        .section-title__2nd-row Уникальное предложение по комплексному продвиженю Вашего бизнеса с ROI 500%
+        

@@ -1,3 +1,29 @@
+@font-face {
+  font-family: spectralBold;
+  src: url("../fonts/spectral/Spectral-Bold.ttf");
+}
+@font-face {
+  font-family: spectralRegular;
+  src: url("../fonts/spectral/Spectral-Regular.ttf");
+}
+@font-face {
+  font-family: gilroyRegular;
+  src: url("../fonts/gilroy/Gilroy-Regular.ttf");
+}
+body {
+  font-family: spectralRegular;
+}
+.bg_dotted {
+  background-image: url("../images/common__bg-dotted-single.png");
+}
+.d-n {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1300px;
+  }
+}
 .footer {
   background: #000;
   color: #fff;
@@ -220,31 +246,27 @@ li.footer__contacts-email {
     margin: 4px 0;
   }
 }
-@font-face {
-  font-family: spectralBold;
-  src: url("../fonts/spectral/Spectral-Bold.ttf");
+.container_ttl-n-numb {
+  max-width: 330px;
 }
-@font-face {
-  font-family: spectralRegular;
-  src: url("../fonts/spectral/Spectral-Regular.ttf");
+.ttl-n-numb {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  font-family: gilroyRegular, sans-serif;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
 }
-@font-face {
-  font-family: gilroyRegular;
-  src: url("../fonts/gilroy/Gilroy-Regular.ttf");
-}
-body {
-  font-family: spectralRegular;
-}
-.bg_dotted {
-  background-image: url("../images/common__bg-dotted-single.png");
-}
-.d-n {
-  display: none;
-}
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1300px;
-  }
+.ttl-n-numb__undrln {
+  height: 2px;
+  display: block;
+  background-color: #000;
+  flex-grow: 1;
+  margin: 0 15px 7px;
 }
 .z-all_fdc {
   flex-direction: column;
